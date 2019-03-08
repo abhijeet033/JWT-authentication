@@ -3,7 +3,7 @@ const app=express();
 const morgan=require('morgan');
 const bodyParser=require('body-parser');
 const mongoose=require('mongoose');
-const url='mongodb://admin:admin123@ds041546.mlab.com:41546/demo';
+const url='mongodb://<user>:<password>@ds######.mlab.com:#####/dbname';
 
  const signupRoutes=require('./api/routes/signup');
  const roleRoutes=require('./api/routes/roles')
